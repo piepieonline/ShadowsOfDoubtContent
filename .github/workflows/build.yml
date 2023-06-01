@@ -17,7 +17,9 @@ jobs:
         type: 'zip'
         filename: 'release.zip'
         path: 'DDSLoader'
-        
+    - name: Set release tag
+      id: vars
+      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
@@ -25,4 +27,4 @@ jobs:
         token: ${{ secrets.TOKEN }}
         makeLatest: true
         allowUpdates: true
-        tag: ${{ github.sha }}
+        tag: ${{ steps.vars.outputs.sha_short }}
