@@ -24,3 +24,5 @@ jobs:
         artifacts: "release.zip"
         token: ${{ secrets.TOKEN }}
         makeLatest: true
+        tag: '$GITHUB_SHA'
+        allowUpdates: true
