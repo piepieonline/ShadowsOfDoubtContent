@@ -15,9 +15,9 @@ Grab the latest release and install into SoD following the enclosed README.
 There are two examples included in the repo, both working on spam vmails for simplicity.
 
 * Example_NewSpam
-    this example adds a brand new spam Vmail to the game, using an entirely custom tree
+  * This example adds a brand new spam Vmail to the game, using an entirely custom tree (Subject line is 'Custom Spam!')
 * Example_PatchedSpam
-    This example modifies the existing SyncDisk spam Vmail, adding an alternative subject line ('SYNCDISK UNIQUE OFFER' as well as the vanilla 'SYNCDISK OFFER SPECIAL')
+  * This example modifies the existing SyncDisk spam Vmail, adding an alternative subject line ('SYNCDISK UNIQUE OFFER' as well as the vanilla 'SYNCDISK OFFER SPECIAL')
 
 Both of these are disabled by default, and can be enabled by deleting the disabled.txt file in the relevant folder.
 
