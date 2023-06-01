@@ -1,0 +1,34 @@
+[
+    {
+        "op": "add",
+        "path": "/replacements/-",
+        "value": {
+            "connection": 15,
+            "dislikeLike": 0.5,
+            "replaceWithID": "6a327abf-569d-4130-8294-da699290fbea",
+            "strangerKnown": 0.5,
+            "traitCondition": 0,
+            "traits": [
+            ],
+            "useConnection": false,
+            "useDislikeLike": false,
+            "useTraits": false
+        }
+    },
+    {
+        "op": "add",
+        "path": "/replacements/-",
+        "value": {
+            "connection": 15,
+            "dislikeLike": 0.5,
+            "replaceWithID": "5eee4d7c-1803-4e48-8890-c7235aa87a98",
+            "strangerKnown": 0.5,
+            "traitCondition": 0,
+            "traits": [
+            ],
+            "useConnection": false,
+            "useDislikeLike": false,
+            "useTraits": false
+        }
+    }
+]
