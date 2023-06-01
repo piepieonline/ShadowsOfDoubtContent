@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Set build tag
+      id: vars
+      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
     - name: Copy Content
       run: cp -R AdditionalContent DDSLoader/AdditionalContent
     - name: Archive Files
@@ -16,9 +19,6 @@ jobs:
         type: 'zip'
         filename: "DDSLoader-${{ steps.vars.outputs.sha_short }}.zip"
         path: 'DDSLoader'
-    - name: Set release tag
-      id: vars
-      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
