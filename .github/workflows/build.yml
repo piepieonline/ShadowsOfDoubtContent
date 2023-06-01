@@ -25,4 +25,4 @@ jobs:
         token: ${{ secrets.TOKEN }}
         makeLatest: true
         allowUpdates: true
-        tag: ${{ GITHUB_SHA }}
+        tag: ${{ github.sha }}
