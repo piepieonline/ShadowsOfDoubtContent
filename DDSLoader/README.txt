@@ -1,7 +1,3 @@
-todo
-
-but for now, 
-
 DDSLoader
 
 A library used to load additional DDS and string content into ShadowsOfDoubt
