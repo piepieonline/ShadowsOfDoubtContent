@@ -21,6 +21,8 @@ There are two examples included in the repo, both working on spam vmails for sim
 
 Both of these are disabled by default, and can be enabled by deleting the disabled.txt file in the relevant folder.
 
+More information can be found on the wiki: https://shadowsofdoubtmodding.miraheze.org/wiki/DDS_System
+
 ## Contribution Guidelines
 
 TODO. Contributions are welcome, but I don't have best practices or anything in place yet.
