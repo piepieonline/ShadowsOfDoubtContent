@@ -1,0 +1,17 @@
+{
+  "name": "|Curse|!",
+  "id": "f0281224-ae6c-4f76-9938-8d6768ba8410",
+  "replacements": [
+    {
+      "connection": 15,
+      "dislikeLike": 0.5,
+      "replaceWithID": "ba4b6f6c-f4a7-49f5-bc9f-428fce82ddc6",
+      "strangerKnown": 0.5,
+      "traitCondition": 0,
+      "traits": [],
+      "useConnection": false,
+      "useDislikeLike": false,
+      "useTraits": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "You know what day it is?",
+  "id": "de57c15c-7470-4ef0-a7b0-2508fa783fc8",
+  "replacements": [
+    {
+      "connection": 15,
+      "dislikeLike": 0.5,
+      "replaceWithID": "4f6dab4f-0e8b-465d-b15c-6cfbb38a7902",
+      "strangerKnown": 0.5,
+      "traitCondition": 0,
+      "traits": [],
+      "useConnection": false,
+      "useDislikeLike": false,
+      "useTraits": false
+    },
+    {
+      "connection": 15,
+      "dislikeLike": 0.5,
+      "replaceWithID": "b0249e57-a8d3-4a88-a692-632a0b5f9384",
+      "strangerKnown": 0.5,
+      "traitCondition": 0,
+      "traits": [],
+      "useConnection": false,
+      "useDislikeLike": false,
+      "useTraits": false
+    },
+    {
+      "connection": 15,
+      "dislikeLike": 0.5,
+      "replaceWithID": "de57c15c-7470-4ef0-a7b0-2508fa783fc8",
+      "strangerKnown": 0.5,
+      "traitCondition": 0,
+      "traits": [],
+      "useConnection": false,
+      "useDislikeLike": false,
+      "useTraits": false
+    }
+  ]
+}

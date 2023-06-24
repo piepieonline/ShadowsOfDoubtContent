@@ -1,0 +1,213 @@
+{
+  "document": {
+    "background": "",
+    "colour": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "fill": 1,
+    "size": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "id": "a610416e-c83c-49ac-82dd-20ef194d7fd0",
+  "messages": [
+    {
+      "alignH": 0,
+      "alignV": 0,
+      "charSpace": 0,
+      "col": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "elementName": "",
+      "font": "",
+      "fontSize": 14,
+      "fontStyle": 0,
+      "instanceID": "bc1deecf-8a12-444a-93aa-135a4600dd38",
+      "lineSpace": 0,
+      "links": [
+        {
+          "from": "bc1deecf-8a12-444a-93aa-135a4600dd38",
+          "to": "d4548a11-0468-47ef-a5fd-c45783786668",
+          "delayInterval": {
+            "x": 0,
+            "y": 0.01
+          },
+          "useWeights": false,
+          "choiceWeight": 0.5,
+          "useKnowLike": false,
+          "know": 0.5,
+          "like": 0.5,
+          "useTraits": false,
+          "traits": [],
+          "traitConditions": 0
+        }
+      ],
+      "msgID": "ff9484b1-b80c-4485-a495-4dc1096c7f56",
+      "order": 0,
+      "paraSpace": 0,
+      "pos": {
+        "x": -40,
+        "y": -280
+      },
+      "rot": 0,
+      "saidBy": 1,
+      "saidTo": 0,
+      "size": {
+        "x": 320,
+        "y": 300
+      },
+      "usePages": false,
+      "wordSpace": 0
+    },
+    {
+      "alignH": 0,
+      "alignV": 0,
+      "charSpace": 0,
+      "col": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "elementName": "",
+      "font": "",
+      "fontSize": 14,
+      "fontStyle": 0,
+      "instanceID": "d4548a11-0468-47ef-a5fd-c45783786668",
+      "lineSpace": 0,
+      "links": [
+        {
+          "from": "d4548a11-0468-47ef-a5fd-c45783786668",
+          "to": "98f5d6c0-04f5-4d90-9590-6227af1797e8",
+          "delayInterval": {
+            "x": 0,
+            "y": 0.01
+          },
+          "useWeights": false,
+          "choiceWeight": 0.5,
+          "useKnowLike": false,
+          "know": 0.5,
+          "like": 0.5,
+          "useTraits": false,
+          "traits": [],
+          "traitConditions": 0
+        }
+      ],
+      "msgID": "d5586a05-0029-4476-a2df-a799bdc2906e",
+      "order": 1,
+      "paraSpace": 0,
+      "pos": {
+        "x": -40,
+        "y": -280
+      },
+      "rot": 0,
+      "saidBy": 0,
+      "saidTo": 1,
+      "size": {
+        "x": 320,
+        "y": 300
+      },
+      "usePages": false,
+      "wordSpace": 0
+    },
+    {
+      "alignH": 0,
+      "alignV": 0,
+      "charSpace": 0,
+      "col": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "elementName": "",
+      "font": "",
+      "fontSize": 14,
+      "fontStyle": 0,
+      "instanceID": "98f5d6c0-04f5-4d90-9590-6227af1797e8",
+      "lineSpace": 0,
+      "links": [],
+      "msgID": "5db36295-9dd2-4f2c-88d9-388c34bb92d2",
+      "order": 2,
+      "paraSpace": 0,
+      "pos": {
+        "x": -40,
+        "y": -280
+      },
+      "rot": 0,
+      "saidBy": 1,
+      "saidTo": 0,
+      "size": {
+        "x": 320,
+        "y": 300
+      },
+      "usePages": false,
+      "wordSpace": 0
+    }
+  ],
+  "name": "What_Day",
+  "participantA": {
+    "connection": 0,
+    "disableInbox": false,
+    "jobs": [],
+    "required": true,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [
+      "0",
+      "4"
+    ],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "participantB": {
+    "connection": 18,
+    "disableInbox": false,
+    "jobs": [],
+    "required": true,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [
+      "0",
+      "4"
+    ],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "participantC": {
+    "connection": 15,
+    "disableInbox": false,
+    "jobs": [],
+    "required": false,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "participantD": {
+    "connection": 15,
+    "disableInbox": false,
+    "jobs": [],
+    "required": false,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "priority": 3,
+  "repeat": 8,
+  "startingMessage": "bc1deecf-8a12-444a-93aa-135a4600dd38",
+  "stopMovement": true,
+  "treeChance": 5,
+  "treeType": 0,
+  "triggerPoint": 2
+}

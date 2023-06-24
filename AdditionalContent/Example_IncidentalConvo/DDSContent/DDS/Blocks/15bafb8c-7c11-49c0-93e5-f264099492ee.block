@@ -1,0 +1,28 @@
+{
+  "name": "Nope.",
+  "id": "15bafb8c-7c11-49c0-93e5-f264099492ee",
+  "replacements": [
+    {
+      "connection": 15,
+      "dislikeLike": 0.5,
+      "replaceWithID": "471da3e3-d331-4a7c-ad67-0df32663c029",
+      "strangerKnown": 0.5,
+      "traitCondition": 0,
+      "traits": [],
+      "useConnection": false,
+      "useDislikeLike": false,
+      "useTraits": false
+    },
+    {
+      "connection": 15,
+      "dislikeLike": 0.5,
+      "replaceWithID": "15bafb8c-7c11-49c0-93e5-f264099492ee",
+      "strangerKnown": 0.5,
+      "traitCondition": 0,
+      "traits": [],
+      "useConnection": false,
+      "useDislikeLike": false,
+      "useTraits": false
+    }
+  ]
+}
