@@ -20,7 +20,9 @@ There are three examples included in the repo.
   * This example modifies the existing SyncDisk spam Vmail, adding an alternative subject line ('SYNCDISK UNIQUE OFFER' as well as the vanilla 'SYNCDISK OFFER SPECIAL')
 * Example_IncidentalConvo
   * This example adds a new incidental conversation that can happen between NPCs when they pass each other, asking what day it is.
-
+* Example_Newspaper
+  * This example adds a new article to the newspaper pool, entitled 'Hot off the press!'
+  
 All of these are disabled by default, and can be enabled by deleting the disabled.txt file in the relevant folder.
 
 More information can be found on the wiki: https://shadowsofdoubtmodding.miraheze.org/wiki/DDS_System
